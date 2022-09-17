@@ -1,0 +1,169 @@
+
+header {
+	background-color: #ececa1; 
+	background-image: url('http://intro-webdesign.com/CSS/assignment-2/images/flywheel.jpg'); 
+	padding: 25px;
+	margin: 15px;
+	background-size: cover;
+	text-align: center;
+}
+
+
+h1{
+	text-align: center;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	font-family: verdana;
+	font-size: 150%;
+	border: thick;
+}
+
+img{
+	
+	display: block;
+    border: 3px solid #000000;
+    margin: 0 auto;
+    clear:both;
+    width: 85%;
+    height: 185px;
+    margin-top: 37px;
+    margin-bottom:35px;
+
+}
+
+h2{
+	text-transform: uppercase;
+	color: #000000;
+	font-family: Helvetica;
+	background: #7e8952;
+	padding: 5px;
+
+}
+
+section{
+	background: #FFFFFF;
+
+}
+
+body{
+	
+	background: #FFFFFF;
+	padding: 2px;
+	margin: 2px;
+}
+
+nav a{
+	text-align:center;
+	text-decoration: none;
+	background: rgba(236, 236, 161, 0.5); 
+	display: inline-block;
+	width: 10%;
+	height: 20px;
+	margin: 10px;
+	padding: 9px;
+	font-weight: bold;
+	border-radius: 3px;
+
+}
+
+
+
+aside.left{
+   background-color: #7e8952 ;
+   height: auto;
+   float: left;
+   width: 20%;
+   margin-left: 10px;
+}
+
+aside.left img{
+	
+	width: 200px;
+	height: 100px;
+	display: block;
+
+
+}
+
+section.right {
+	box-sizing: border-box;
+	display: inline-block;
+	float: right;
+	width: 78%;
+
+}
+
+nav a:link{
+    color: #000000;
+}
+nav a:visited{
+    color:#000000;
+    background-color:#0c4f0d7;
+}
+nav a:active{
+    color:#ff0000 ;
+    background-color: #ffffff;
+}
+
+
+nav a:hover{
+	background: #c4f0d7;
+	color: #ff0000  ;
+}
+
+nav a.active {
+  background-color: rgba(255,255,255,1);
+}
+
+/*Final project*/
+
+table{
+	border-radius: 5px;
+	margin: 0 auto;
+	font-weight: bold;
+	text-align: center;
+	font-family: Helvetica, verdana;
+}
+
+tr th {
+	border: 1px solid black;
+	border-bottom: 3px solid black;
+	border-radius: 5px 5px 0 0;
+	background-color: #7e8952;
+	padding: 10px;
+	line-height: 80%;
+	background: -webkit-linear-gradient(#7e8952,#000000);
+	color: #ffffff;
+
+}
+
+tr td{
+	opacity: 0.8;
+	padding: 1%;
+	background-color:#babdaf;
+	color: #000000;
+	font-size: 95%;
+}
+
+tr:hover td{
+	opacity: 1;
+	text-shadow: 2px 2px 2px #7e8952;
+
+} 
+
+tr td:first-child, table tr th:first-child{
+	text-align: left;
+}
+
+/*tr:last-child{
+	border-radius: 0 0 5px 5px;
+}*/
+
+tr:last-child> td:first-child{
+	border-radius: 0 0 0 5px;
+}
+
+tr:last-child> td:last-child{
+	border-radius: 0 0 5px 0;
+}
+
